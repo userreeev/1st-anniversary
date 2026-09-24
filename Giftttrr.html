@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary My Pretty Baby Rim 🌸 224♾️</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        blush: '#FFF0F5',
+                        softrose: '#FFB7C5',
+                        lightpink: '#FFB6C1',
+                        hotpink: '#FF69B4',
+                        deeprose: '#C71585',
+                        crimson: '#8B0000',
+                        rubyred: '#E63946',
+                        cream: '#FFF9FA'
+                    },
+                    fontFamily: {
+                        sans: ['Quicksand', 'sans-serif'],
+                        cute: ['Fredoka', 'cursive'],
+                        handwritten: ['Caveat', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #fff0f5 0%, #ffb7c5 30%, #ff69b4 65%, #8b0000 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-family: 'Quicksand', sans-serif;
+            color: #38020a;
+        }
+
+        /* Floating Rose Petals Animation */
+        .petal {
+            position: fixed;
+            background: linear-gradient(135deg, #ffb7c5, #e63946, #8b0000);
+            border-radius: 150% 0 150% 0;
+            opacity: 0.8;
+            pointer-events: none;
+            z-index: 1;
+            filter: drop-shadow(0 2px 4px rgba(139, 0, 0, 0.3));
+            animation: animatePetal 10s linear infinite;
+        }
+
+        @keyframes animatePetal {
+            0% {
+                top: -10%;
+                transform: translateX(0) rotate(0deg) scale(0.8);
+                opacity: 0.9;
+            }
+            50% {
+                transform: translateX(100px) rotate(180deg) scale(1.1);
+                opacity: 0.7;
+            }
+            100% {
+                top: 110%;
+                transform: translateX(-50px) rotate(360deg) scale(0.6);
+                opacity: 0;
+            }
+        }
+
+        .step-card {
+            transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .hidden-card {
+            opacity: 0;
+            transform: scale(0.9) translateY(30px);
+            pointer-events: none;
+            position: absolute;
+            width: 100%;
+        }
+        .active-card {
+            opacity: 1;
+            transform: scale(1) translateY(0);
+            pointer-events: auto;
+            position: relative;
+        }
+
+        .glass-card {
+            background: rgba(255, 249, 250, 0.95);
+            backdrop-filter: blur(16px);
+            border: 2px solid rgba(255, 183, 197, 0.8);
+            box-shadow: 0 25px 50px rgba(139, 0, 0, 0.25), 0 0 30px rgba(255, 105, 180, 0.3);
+        }
+
+        .glow-button {
+            background: linear-gradient(135deg, #ff69b4 0%, #e63946 50%, #8b0000 100%);
+            box-shadow: 0 4px 20px rgba(139, 0, 0, 0.4);
+            transition: all 0.3s ease;
+        }
+        .glow-button:hover {
+            box-shadow: 0 6px 28px rgba(255, 105, 180, 0.8);
+            transform: translateY(-2deg);
+        }
+
+        .letter-paper {
+            background: #ffffff;
+            background-image: linear-gradient(#ffe4e8 1px, transparent 1px);
+            background-size: 100% 2.4rem;
+            line-height: 2.4rem;
+        }
+
+        @keyframes heartPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+        .heart-beat {
+            animation: heartPulse 2.2s infinite ease-in-out;
+        }
+
+        @keyframes vinylSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .animate-spin-slow {
+            animation: vinylSpin 7s linear infinite;
+        }
+
+        .custom-scroll::-webkit-scrollbar {
+            width: 7px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: #fff0f5;
+            border-radius: 10px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #e63946;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-3 sm:p-6 min-h-screen relative selection:bg-softrose selection:text-crimson">
+
+    <div id="petalsContainer" class="fixed inset-0 pointer-events-none overflow-hidden z-0"></div>
+
+    <main class="w-full max-w-2xl mx-auto z-10 my-auto relative">
+
+        <!-- STEP 1: LOCK SCREEN (PASSCODE 011025) -->
+        <div id="step1" class="step-card active-card glass-card rounded-3xl p-6 sm:p-10 text-center">
+            
+            <div class="relative w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-2 heart-beat">
+                <svg viewBox="0 0 200 200" class="w-full h-full drop-shadow-lg">
+                    <path d="M40,110 Q10,75 60,80 Q80,95 40,110 Z" fill="#1b4332" />
+                    <path d="M160,110 Q190,75 140,80 Q120,95 160,110 Z" fill="#2d6a4f" />
+                    <path d="M50,140 Q20,115 65,115 Q80,130 50,140 Z" fill="#2d6a4f" />
+                    <path d="M150,140 Q180,115 135,115 Q120,130 150,140 Z" fill="#1b4332" />
+                    <path d="M70,140 Q100,155 130,140 L120,195 Q100,200 80,195 Z" fill="#8b0000" />
+                    <path d="M80,140 Q100,150 120,140 L100,175 Z" fill="#e63946" />
+                    <path d="M92,150 Q100,158 108,150 L104,185 L96,185 Z" fill="#ffb7c5" />
+
+                    <circle cx="100" cy="70" r="28" fill="#8b0000" />
+                    <circle cx="100" cy="70" r="22" fill="#e63946" />
+                    <circle cx="100" cy="70" r="15" fill="#ff69b4" />
+                    <circle cx="100" cy="70" r="8" fill="#fff0f5" />
+
+                    <circle cx="65" cy="90" r="24" fill="#8b0000" />
+                    <circle cx="65" cy="90" r="18" fill="#e63946" />
+                    <circle cx="65" cy="90" r="11" fill="#ffb7c5" />
+
+                    <circle cx="135" cy="90" r="24" fill="#8b0000" />
+                    <circle cx="135" cy="90" r="18" fill="#e63946" />
+                    <circle cx="135" cy="90" r="11" fill="#ffb7c5" />
+
+                    <circle cx="72" cy="52" r="20" fill="#c71585" />
+                    <circle cx="72" cy="52" r="14" fill="#ff69b4" />
+                    <circle cx="72" cy="52" r="8" fill="#fff0f5" />
+
+                    <circle cx="128" cy="52" r="20" fill="#c71585" />
+                    <circle cx="128" cy="52" r="14" fill="#ff69b4" />
+                    <circle cx="128" cy="52" r="8" fill="#fff0f5" />
+
+                    <circle cx="100" cy="112" r="18" fill="#ff69b4" />
+                    <circle cx="100" cy="112" r="11" fill="#ffb7c5" />
+                </svg>
+            </div>
+
+            <h1 class="font-cute text-2xl sm:text-4xl font-bold text-crimson mb-2">
+                Enter Our Secret Passcode 🌸
+            </h1>
+            <p class="text-gray-700 text-sm sm:text-base mb-6 font-semibold">
+                Enter our special date code to open your surprise!
+            </p>
+
+            <form id="lockForm" onsubmit="handleCodeSubmit(event)" class="space-y-4">
+                <div class="relative max-w-xs mx-auto">
+                    <input 
+                        type="password" 
+                        id="dateInput" 
+                        placeholder="••••••" 
+                        maxlength="10"
+                        class="w-full px-5 py-3.5 text-center text-2xl font-bold text-crimson bg-blush border-2 border-softrose rounded-2xl focus:outline-none focus:border-rubyred focus:ring-4 focus:ring-softrose/50 transition duration-200 tracking-widest placeholder:text-softrose/70 shadow-inner"
+                        required
+                    />
+                    <span class="absolute right-4 top-1/2 -translate-y-1/2 text-rubyred">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                </div>
+
+                <div id="wrongMessage" class="hidden text-xs sm:text-sm text-crimson font-bold">
+                    Incorrect passcode! Think about our special date... 🤔
+                </div>
+
+                <button 
+                    type="submit" 
+                    class="glow-button w-full sm:w-auto px-10 py-3.5 text-white font-bold rounded-2xl text-lg shadow-lg active:scale-95 transition"
+                >
+                    Unlock Love <i class="fa-solid fa-lock-open ml-2"></i>
+                </button>
+            </form>
+
+            <p class="mt-8 text-xs text-rubyred font-bold tracking-wider">
+                FOR MY PRETTY BABY RIM • 224♾️
+            </p>
+        </div>
+
+        <!-- STEP 2: DO YOU STILL LOVE ME QUIZ -->
+        <div id="step2" class="step-card hidden-card glass-card rounded-3xl p-6 sm:p-10 text-center">
+            <div class="inline-block p-4 rounded-full bg-blush text-rubyred mb-3 animate-bounce">
+                <i class="fa-solid fa-heart-circle-bolt text-4xl sm:text-5xl"></i>
+            </div>
+
+            <h2 class="font-cute text-2xl sm:text-3xl font-bold text-gray-800 mb-2">
+                Quick question before you enter...
+            </h2>
+            <p class="text-rubyred font-bold text-2xl sm:text-3xl mb-8 font-cute">
+                Do you still love me? 💖
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 min-h-[140px] relative">
+                <button 
+                    id="yesBtn" 
+                    onclick="handleYesClick()"
+                    class="glow-button px-9 py-3.5 text-white font-bold rounded-2xl text-lg shadow-md hover:scale-105 active:scale-95 transition duration-200 w-full sm:w-auto min-w-[170px]"
+                >
+                    Yes, forever! 💖
+                </button>
+
+                <button 
+                    id="noBtn" 
+                    onmouseover="dodgeNoButton()" 
+                    onclick="dodgeNoButton()"
+                    class="px-7 py-3.5 bg-rose-100 text-gray-700 font-bold rounded-2xl text-base shadow transition duration-200 w-full sm:w-auto"
+                >
+                    No 🙈
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 3: HEARTFELT LOVE LETTER (1000+ WORDS) -->
+        <div id="step3" class="step-card hidden-card glass-card rounded-3xl p-4 sm:p-8">
+            
+            <div class="flex items-center justify-between border-b-2 border-softrose/60 pb-4 mb-4">
+                <div class="flex items-center space-x-3">
+                    <span class="text-3xl sm:text-4xl">💌</span>
+                    <div>
+                        <h3 class="font-cute font-bold text-crimson text-xl sm:text-2xl">Happy 1st Anniversary</h3>
+                        <p class="text-xs text-rubyred font-semibold">For my pretty baby, mnigilaaaa dyali ✨</p>
+                    </div>
+                </div>
+                <div class="w-11 h-11 rounded-full bg-crimson text-blush border-2 border-amber-200 flex items-center justify-center font-handwritten text-2xl font-bold shadow-md">
+                    224
+                </div>
+            </div>
+
+            <div class="letter-paper p-4 sm:p-6 rounded-2xl border border-softrose/50 shadow-inner font-handwritten text-xl sm:text-2xl text-gray-800 max-h-[60vh] overflow-y-auto custom-scroll space-y-5">
+                
+                <p class="font-bold text-crimson text-2xl sm:text-3xl">
+                    My dearrrr wifieeeeee,
+                </p>
+
+                <p class="font-bold text-rubyred text-2xl">
+                    Happy 1st Monthsary / Anniversary to us^^ 🎉✨
+                </p>
+
+                <p>
+                    iloveyou always my pretty baby <span class="text-crimson font-bold underline decoration-softrose">mnigilaaaa dyali</span>, thankyousm for coming into my life, thankyou for loving me, caring me, listening to tkhrbi9 dyalii. Every single day with you feels like a beautiful dream that I never ever want to wake up from.
+                </p>
+
+                <p>
+                    Always remember that I'm always here for you, no matter what happens or how hard things get. I loveee u so much, w even thooo we don’t meet too much right now, I love every single second and every single moment with u. You are my safe place, my warmth, and my happiest home.
+                </p>
+
+                <div class="py-1">
+                    <hr class="border-softrose border-dashed" />
+                </div>
+
+                <p class="font-bold text-crimson">
+                    My precious baby, I want to talk to you about us and about everything we have built together...
+                </p>
+
+                <p>
+                    Looking back at this full year together, I honestly can't believe how fast time passed between us. It feels like just yesterday we started talking, and now here we are, celebrating our 1st Anniversary together! Through every laugh, every midnight phone call, every little story you shared with me, and even through all the times I talked and talked about tkhrbi9 dyali while you listened so patiently and lovingly... you made me fall deeper and deeper in love with you every single day.
+                </p>
+
+                <p>
+                    I want you to know how grateful I am for your presence in my life. You brought a kind of brightness and calm that I never knew existed before I met you. You care for me in ways that make me feel so valued, so protected, and so cherished. Having you as my girlfriend, my best friend, and my future wifie is the greatest blessing I could ever ask for.
+                </p>
+
+                <div class="py-1">
+                    <hr class="border-softrose border-dashed" />
+                </div>
+
+                <p class="font-bold text-rubyred text-2xl">
+                    Our Future Together ✨ Qit'at Min Ahlamna
+                </p>
+
+                <p>
+                    I want you to close your eyes for a second and think about our future... because that dream is not far away anymore! Everything we ever talked about, every plan we made, and every secret wish we whispered to each other is slowly becoming our real life.
+                </p>
+
+                <p>
+                    Right now, as I work hard on my studies and focus on becoming an Architect, every single late night I spend working is dedicated to us and to the life I promised you. I keep imagining the days when I move to Spain, living in Murcia, studying hard at university while having you right there by my side. Imagine us living together in that beautiful city, walking down its warm streets holding hands, studying together, cooking together, and sharing endless laughs after long days!
+                </p>
+
+                <p>
+                    And that is only the beginning! As soon as I finish my architecture degree and get my diploma, inshallah we are moving straight to Germany together. We are going to build the exact quiet, beautiful, and peaceful life we always dreamed of having. A cozy home filled with warmth, light, love, and sweet memories.
+                </p>
+
+                <p>
+                    I see our future home so clearly in my mind... We will have our cute little cats purring in the living room, a fluffy little bunny running around, and our adorable baby that looks just like you 🥹. I keep picturing what it will feel like to wake up every single morning, turn around, look straight into your eyes, and whisper to you with a heart full of joy: <span class="text-crimson font-bold underline">"rah ddernaha a ahbeeba ❤️"</span>.
+                </p>
+
+                <p>
+                    We did it! We built our dream, we fought for our love, and we made everything we ever promised each other come true. Both of us working hard on our goals, building our future step by step, and watching you grow more beautiful, strong, and glowing right in front of my eyes every single day.
+                </p>
+
+                <p>
+                    You will always be mine, completely and only mine. No more hiding, no more worrying about anyone looking at us or saying anything, no more distance separating us for days. Just you and me, living our life freely and peacefully, building a home filled with pure happiness.
+                </p>
+
+                <div class="py-1">
+                    <hr class="border-softrose border-dashed" />
+                </div>
+
+                <p>
+                    I want you to know that every promise I made to you is a promise I will work with all my strength to fulfill. You are the only girl I see, the only one I want to spend my entire life with, and the only person I want by my side when I achieve all my goals. Everything I am doing right now is for us, for our future, and for that sweet moment when I get to hold your hand in our home forever.
+                </p>
+
+                <p>
+                    Thank you for being my support, my motivation, my pretty baby, and my entire world. You make every day worth fighting for, and you make me want to become the absolute best version of myself every single day.
+                </p>
+
+                <p class="font-bold text-crimson text-2xl sm:text-3xl text-center pt-3">
+                    kanbgheeek bzfffffff w koula nhar kanbgheeek kteer ❤️
+                </p>
+
+                <p class="font-bold text-rubyred text-xl sm:text-2xl text-center pb-2">
+                    i hope we stay together forever just the two of us 224♾️
+                </p>
+            </div>
+
+            <div class="mt-5 text-center">
+                <button 
+                    onclick="goToStep4()" 
+                    class="glow-button px-8 py-3.5 text-white font-bold rounded-2xl text-lg shadow-lg active:scale-95 transition"
+                >
+                    Listen to Our Song 🎵
+                </button>
+            </div>
+        </div>
+
+        <!-- STEP 4: MUSIC & LYRICS PLAYER -->
+        <div id="step4" class="step-card hidden-card glass-card rounded-3xl p-6 sm:p-10 text-center">
+            
+            <div class="inline-block p-4 rounded-full bg-blush text-rubyred mb-3">
+                <i class="fa-solid fa-compact-disc text-5xl animate-spin-slow"></i>
+            </div>
+
+            <div class="bg-gradient-to-r from-blush via-softrose/40 to-blush p-4 rounded-2xl border border-softrose mb-6 inline-block w-full shadow-sm">
+                <p class="font-cute font-bold text-crimson text-2xl flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-music text-rubyred"></i>
+                    <span>This is our song 🎶</span>
+                    <i class="fa-solid fa-heart text-rubyred"></i>
+                </p>
+            </div>
+
+            <!-- Audio Player Widget -->
+            <div class="flex items-center bg-blush rounded-2xl p-4 border border-softrose mb-6 max-w-md mx-auto shadow-sm">
+                <div class="w-16 h-16 rounded-2xl bg-crimson text-white flex items-center justify-center text-3xl shadow-md mr-4 flex-shrink-0">
+                    🍂
+                </div>
+                <div class="text-left flex-grow">
+                    <h4 class="font-bold text-gray-800 text-base sm:text-lg">We Fell in Love in October</h4>
+                    <p class="text-xs sm:text-sm text-rubyred font-bold">girl in red 🍂</p>
+                    <p id="audioStatus" class="text-[11px] text-gray-500 mt-1 font-semibold">Playing from "We fell in love in October..." 🎶</p>
+                </div>
+                <button id="playAudioBtn" onclick="toggleAudio()" class="w-12 h-12 rounded-full bg-rubyred text-white flex items-center justify-center hover:bg-crimson shadow-md transition ml-2 flex-shrink-0">
+                    <i id="playIcon" class="fa-solid fa-pause text-lg"></i>
+                </button>
+            </div>
+
+            <!-- Audio Tag with Reliable CDN Streams -->
+            <audio id="bgMusic" loop preload="auto">
+                <source src="https://archive.org/download/y-2mate.com-girl-in-red-we-fell-in-love-in-october/y-2mate.com-girl-in-red-we-fell-in-love-in-october.mp3" type="audio/mpeg">
+                <source src="https://archive.org/download/y-2mate.com-girl-in-red-we-fell-in-love-in-october/girl%20in%20red%20-%20we%20fell%20in%20love%20in%20october.mp3" type="audio/mpeg">
+            </audio>
+
+            <!-- Song Lyrics Box -->
+            <div class="p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-blush to-rose-100 border border-softrose shadow-inner mb-6 text-crimson font-handwritten text-2xl sm:text-3xl leading-snug space-y-3">
+                <p class="italic font-bold text-rubyred text-3xl">"We fell in love in October / That's why I love fall"</p>
+                <p class="text-xl sm:text-2xl text-crimson font-bold">"Looking at the stars, getting lost in your eyes..."</p>
+                <p class="text-xl sm:text-2xl text-gray-700 italic">"My girl, my girl, my girl... You will be my girl"</p>
+                <p class="text-lg text-rubyred font-bold">"You will be my world, my world, my world..."</p>
+            </div>
+
+            <div class="p-6 rounded-2xl bg-gradient-to-r from-rubyred via-crimson to-darkpink text-white shadow-xl mb-6">
+                <p class="font-cute text-xl sm:text-2xl font-bold leading-relaxed">
+                    i hope we stay together forever just the two of us 224♾️
+                </p>
+            </div>
+
+            <button 
+                onclick="triggerMassiveHearts()" 
+                class="glow-button px-8 py-3.5 text-white font-bold rounded-2xl text-base sm:text-lg shadow-lg active:scale-95 transition"
+            >
+                Click for Love Burst ❤️✨
+            </button>
+        </div>
+
+    </main>
+
+    <script>
+        let yesStep = 0;
+        let audioContext;
+
+        function createPetals() {
+            const container = document.getElementById('petalsContainer');
+            const petalCount = 26;
+
+            for (let i = 0; i < petalCount; i++) {
+                const petal = document.createElement('div');
+                petal.className = 'petal';
+                
+                const size = Math.random() * 16 + 12;
+                petal.style.width = `${size}px`;
+                petal.style.height = `${size * 1.4}px`;
+                petal.style.left = `${Math.random() * 100}%`;
+                petal.style.animationDuration = `${Math.random() * 5 + 7}s`;
+                petal.style.animationDelay = `${Math.random() * 5}s`;
+                
+                const colors = ['#FFB7C5', '#FFB6C1', '#FF69B4', '#E63946', '#8B0000'];
+                petal.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+                container.appendChild(petal);
+            }
+        }
+
+        window.onload = function() {
+            createPetals();
+            document.addEventListener('click', handleScreenHeartClick);
+        };
+
+        function handleScreenHeartClick(e) {
+            if (e.target.tagName === 'BUTTON' || e.target.tagName === 'INPUT') return;
+            confetti({
+                particleCount: 15,
+                spread: 60,
+                origin: { x: e.clientX / window.innerWidth, y: e.clientY / window.innerHeight },
+                colors: ['#FFB7C5', '#FF69B4', '#E63946', '#8B0000']
+            });
+        }
+
+        function handleCodeSubmit(e) {
+            e.preventDefault();
+            const input = document.getElementById('dateInput').value.trim();
+            const wrongMsg = document.getElementById('wrongMessage');
+
+            if (input === "011025") {
+                confetti({
+                    particleCount: 120,
+                    spread: 90,
+                    origin: { y: 0.6 },
+                    colors: ['#FFB7C5', '#FF69B4', '#E63946', '#8B0000', '#ffffff']
+                });
+
+                startAudioAtChorus();
+                switchCard('step1', 'step2');
+            } else {
+                wrongMsg.classList.remove('hidden');
+                document.getElementById('dateInput').classList.add('border-crimson');
+            }
+        }
+
+        function dodgeNoButton() {
+            const noBtn = document.getElementById('noBtn');
+            noBtn.style.position = 'absolute';
+            
+            const x = Math.random() * (window.innerWidth > 640 ? 240 : 140) - 120;
+            const y = Math.random() * 180 - 90;
+            
+            noBtn.style.transform = `translate(${x}px, ${y}px) scale(0.85)`;
+            noBtn.innerHTML = "You can't click this! 😉";
+            noBtn.classList.add('bg-blush', 'text-rubyred', 'border', 'border-softrose');
+        }
+
+        function handleYesClick() {
+            yesStep++;
+
+            if (yesStep === 1) {
+                showCustomPrompt(
+                    "Are you 1000% sure? 🥹❤️",
+                    "YES I AM! 💖",
+                    "More than anything! 🥰",
+                    () => handleYesClick()
+                );
+            } else if (yesStep === 2) {
+                showCustomPrompt(
+                    "Mhmmm really? You love me that much? 🥹✨",
+                    "ABSOLUTELY! 💍",
+                    "Forever & Ever! ♾️",
+                    () => handleYesClick()
+                );
+            } else if (yesStep === 3) {
+                showCustomPrompt(
+                    "Result: 1000% In Love Forever! 🔒💖",
+                    "Read my love letter! 💌",
+                    "I love you so much! 💕",
+                    () => {
+                        confetti({
+                            particleCount: 150,
+                            spread: 100,
+                            origin: { y: 0.5 }
+                        });
+                        switchCard('step2', 'step3');
+                    }
+                );
+            }
+        }
+
+        function showCustomPrompt(title, btn1Text, btn2Text, onConfirm) {
+            const existingModal = document.getElementById('customModal');
+            if (existingModal) existingModal.remove();
+
+            const modal = document.createElement('div');
+            modal.id = 'customModal';
+            modal.className = 'fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4';
+            
+            modal.innerHTML = `
+                <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-sm w-full text-center border-2 border-softrose shadow-2xl">
+                    <div class="text-4xl mb-3">💖</div>
+                    <p class="font-cute text-lg sm:text-xl font-bold text-gray-800 mb-6 whitespace-pre-line">${title}</p>
+                    <div class="space-y-3">
+                        <button id="modalBtn1" class="w-full py-3 bg-rubyred hover:bg-crimson text-white font-bold rounded-2xl shadow transition">
+                            ${btn1Text}
+                        </button>
+                        <button id="modalBtn2" class="w-full py-3 bg-blush hover:bg-rose-100 text-crimson font-bold rounded-2xl transition">
+                            ${btn2Text}
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            document.body.appendChild(modal);
+
+            const handleModalClick = () => {
+                modal.remove();
+                onConfirm();
+            };
+
+            document.getElementById('modalBtn1').onclick = handleModalClick;
+            document.getElementById('modalBtn2').onclick = handleModalClick;
+        }
+
+        function switchCard(fromId, toId) {
+            const fromCard = document.getElementById(fromId);
+            const toCard = document.getElementById(toId);
+
+            fromCard.classList.remove('active-card');
+            fromCard.classList.add('hidden-card');
+
+            setTimeout(() => {
+                toCard.classList.remove('hidden-card');
+                toCard.classList.add('active-card');
+            }, 300);
+        }
+
+        function startAudioAtChorus() {
+            const audio = document.getElementById('bgMusic');
+            audio.currentTime = 28;
+            audio.play().then(() => {
+                updateAudioUI(true);
+            }).catch(() => {
+                playFallbackMelody();
+                updateAudioUI(true);
+            });
+        }
+
+        function playFallbackMelody() {
+            try {
+                audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                const notes = [261.63, 329.63, 392.00, 440.00];
+                let index = 0;
+
+                setInterval(() => {
+                    if (!audioContext) return;
+                    const osc = audioContext.createOscillator();
+                    const gain = audioContext.createGain();
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(notes[index % notes.length], audioContext.currentTime);
+                    gain.gain.setValueAtTime(0.08, audioContext.currentTime);
+                    gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 1.2);
+                    osc.connect(gain);
+                    gain.connect(audioContext.destination);
+                    osc.start();
+                    osc.stop(audioContext.currentTime + 1.2);
+                    index++;
+                }, 800);
+            } catch (e) {
+                console.log('Audio Context active.');
+            }
+        }
+
+        function goToStep4() {
+            switchCard('step3', 'step4');
+            const audio = document.getElementById('bgMusic');
+            if (audio.paused) {
+                startAudioAtChorus();
+            }
+            triggerMassiveHearts();
+        }
+
+        function toggleAudio() {
+            const audio = document.getElementById('bgMusic');
+            if (audio.paused) {
+                audio.play();
+                updateAudioUI(true);
+            } else {
+                audio.pause();
+                updateAudioUI(false);
+            }
+        }
+
+        function updateAudioUI(isPlaying) {
+            const playIcon = document.getElementById('playIcon');
+            const audioStatus = document.getElementById('audioStatus');
+            if (playIcon && audioStatus) {
+                if (isPlaying) {
+                    playIcon.className = 'fa-solid fa-pause text-lg';
+                    audioStatus.textContent = 'Playing from "We fell in love in October..." 🎶';
+                } else {
+                    playIcon.className = 'fa-solid fa-play text-lg';
+                    audioStatus.textContent = 'Paused • Tap to play 🎵';
+                }
+            }
+        }
+
+        function triggerMassiveHearts() {
+            const defaults = {
+                spread: 360,
+                ticks: 100,
+                gravity: 0.8,
+                decay: 0.94,
+                startVelocity: 30,
+                colors: ['#FFB7C5', '#FF69B4', '#E63946', '#8B0000', '#ffffff', '#FFF0F3']
+            };
+
+            confetti({
+                ...defaults,
+                particleCount: 90,
+                scalar: 1.2
+            });
+
+            confetti({
+                ...defaults,
+                particleCount: 60,
+                scalar: 0.8
+            });
+        }
+    </script>
+</body>
+</html>
