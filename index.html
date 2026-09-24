@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My Pretty Baby ❤️</title>
+    <style>
+        :root {
+            --pink-bg: #fff0f3;
+            --pink-accent: #ffb3c1;
+            --pink-dark: #ff4d6d;
+            --text-color: #590d22;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Segoe UI', cursive, sans-serif;
+        }
+
+        body {
+            background-color: var(--pink-bg);
+            color: var(--text-color);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            padding: 20px;
+            position: relative;
+        }
+
+        .petal {
+            position: fixed;
+            top: -10%;
+            font-size: 24px;
+            user-select: none;
+            z-index: 1;
+            animation: fall linear forwards;
+            pointer-events: none;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh) rotate(360deg);
+            }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px 25px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(255, 77, 109, 0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            z-index: 10;
+            border: 3px solid var(--pink-accent);
+            position: relative;
+        }
+
+        .lock-icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            padding: 12px;
+            border: 2px solid var(--pink-accent);
+            border-radius: 12px;
+            font-size: 1.1rem;
+            text-align: center;
+            width: 80%;
+            margin: 15px 0;
+            outline: none;
+            color: var(--text-color);
+        }
+
+        button {
+            background: var(--pink-dark);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s, background 0.2s;
+            box-shadow: 0 4px 10px rgba(255, 77, 109, 0.3);
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background: #c9184a;
+        }
+
+        #quiz-screen, #letter-screen {
+            display: none;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .letter-box {
+            text-align: left;
+            background: #fff5f7;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px dashed var(--pink-accent);
+            max-height: 350px;
+            overflow-y: auto;
+            line-height: 1.7;
+            font-size: 1rem;
+            margin: 15px 0;
+            white-space: pre-line;
+        }
+
+        .error-msg {
+            color: var(--pink-dark);
+            font-size: 0.85rem;
+            display: none;
+            margin-top: -5px;
+        }
+
+        .music-player {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card" id="lock-screen">
+        <div class="lock-icon">🌸🔒🌸</div>
+        <h2>Enter Our Special Date</h2>
+        <p style="font-size: 0.9rem; color: #888; margin-top: 5px;">Format: DD/MM/YYYY</p>
+        <input type="text" id="passcode" placeholder="00/00/0000" />
+        <p class="error-msg" id="error">Oops! Wrong date my love 🥺 Try again!</p>
+        <br />
+        <button onclick="checkCode()">Unlock My Heart ✨</button>
+    </div>
+
+    <div class="card" id="quiz-screen">
+        <div style="font-size: 50px;">🥺👉👈</div>
+        <h2 id="quiz-question">Do you still love me?</h2>
+        <div class="btn-group">
+            <button id="yes-btn" onclick="nextQuestion()">YES! 💖</button>
+        </div>
+    </div>
+
+    <div class="card" id="letter-screen">
+        <h2>💌 Happy Monthsary! 💌</h2>
+        <div class="letter-box">
+My dearrrr wifieeeeee,
+
+Happy 1st Monthsary to us^^ ✨❤️
+
+Iloveyou always my pretty baby, mnigilaaaa dyali! Thank you so much for coming into my life, thank you for loving me, caring for me, and for always listening to tkhrbi9 dyalii 🥺.
+
+Every single day with you feels like a beautiful dream. Ntiya machi ghir my girlfriend, ntiya my safe place, my best friend, w my whole universe. Always remember that I'm always here for you, no matter what happens, through everything!
+
+I loveee u w even thooo we don’t meet too much, but I swear I love every single moment with u mhhhhhmmmm 💕. Every text, every call, every cute little picture you send makes my heart skip a beat. Ntiya l-haja li katkhli kolchi f 7yati ykon 7sen w a7la.
+
+Thank you for being YOU, for your warmth, your smile, and your beautiful pure heart. I’m so lucky w proud to have you as my wifie. Here’s to 1 month w to forever together!
+        </div>
+
+        <div class="music-player">
+            <p style="font-size: 0.85rem; margin-bottom: 5px;">🎵 Girl in Red - We Fell in Love in October</p>
+            <iframe
+                style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/1211111111111111111111"
+                width="100%"
+                height="80"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                id="spotify-player"
+            ></iframe>
+
+            <audio controls style="width: 100%; margin-top: 5px;">
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+            </audio>
+        </div>
+
+        <h3 style="margin-top: 15px; color: var(--pink-dark); font-size: 1.05rem;">
+            I hope we stay together forever just the two of us 224♾️
+        </h3>
+    </div>
+
+    <script>
+        function createPetal() {
+            const symbols = ['🌸', '🌺', '🌹', '💖', '✨', '💕'];
+            const petal = document.createElement('div');
+            petal.classList.add('petal');
+            petal.innerText = symbols[Math.floor(Math.random() * symbols.length)];
+            petal.style.left = Math.random() * 100 + 'vw';
+            petal.style.animationDuration = Math.random() * 3 + 3 + 's';
+            document.body.appendChild(petal);
+
+            setTimeout(() => {
+                petal.remove();
+            }, 6000);
+        }
+        setInterval(createPetal, 300);
+
+        function checkCode() {
+            const input = document.getElementById('passcode').value.trim();
+            if (input === '01/10/2025') {
+                document.getElementById('lock-screen').style.display = 'none';
+                document.getElementById('quiz-screen').style.display = 'block';
+            } else {
+                document.getElementById('error').style.display = 'block';
+            }
+        }
+
+        const questions = [
+            'Do you really love me? 🥺',
+            'Are you 1000% sure?? 💖',
+            'No take-backs forever and ever? 💍',
+            'Yayy! Click to read my letter for you! 💌'
+        ];
+        let currentStep = 0;
+
+        function nextQuestion() {
+            if (currentStep < questions.length) {
+                document.getElementById('quiz-question').innerText = questions[currentStep];
+                currentStep++;
+            } else {
+                document.getElementById('quiz-screen').style.display = 'none';
+                document.getElementById('letter-screen').style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
