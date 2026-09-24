@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Anniversary My Pretty Baby Rim 🌸 224♾️</title>
+    <title>Happy Anniversary My Pretty Baby  🌸 224♾️</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -228,7 +228,7 @@
             </form>
 
             <p class="mt-8 text-xs text-rubyred font-bold tracking-wider">
-                FOR MY PRETTY BABY RIM • 224♾️
+                FOR MY PRETTY BABY  • 224♾️
             </p>
         </div>
 
@@ -320,7 +320,7 @@
                 </div>
 
                 <p class="font-bold text-rubyred text-2xl">
-                    Our Future Together ✨ Qit'at Min Ahlamna
+                    Our Future Together ✨ 
                 </p>
 
                 <p>
@@ -328,7 +328,7 @@
                 </p>
 
                 <p>
-                    Right now, as I work hard on my studies and focus on becoming an Architect, every single late night I spend working is dedicated to us and to the life I promised you. I keep imagining the days when I move to Spain, living in Murcia, studying hard at university while having you right there by my side. Imagine us living together in that beautiful city, walking down its warm streets holding hands, studying together, cooking together, and sharing endless laughs after long days!
+                    Right now, as I work hard and focus on becoming a good personn, every single late night I spend working is dedicated to us and to the life I promised you. I keep imagining the days when I move to Spain, living in Murcia, studying hard at university while having you right there by my side. Imagine us living together in that beautiful city, walking down its warm streets holding hands, studying together, cooking together, and sharing endless laughs after long days!
                 </p>
 
                 <p>
@@ -336,7 +336,7 @@
                 </p>
 
                 <p>
-                    I see our future home so clearly in my mind... We will have our cute little cats purring in the living room, a fluffy little bunny running around, and our adorable baby that looks just like you 🥹. I keep picturing what it will feel like to wake up every single morning, turn around, look straight into your eyes, and whisper to you with a heart full of joy: <span class="text-crimson font-bold underline">"rah ddernaha a ahbeeba ❤️"</span>.
+                    I see our future home so clearly in my mind... We will have our cute little cats purring in the living room, a fluffy little bunny running around, and our adorable baby that looks just like you 🥹 we chi 3 khreeen cuteeen . I keep picturing what it will feel like to wake up every single morning, turn around, look straight into your eyes, and whisper to you with a heart full of joy: <span class="text-crimson font-bold underline">"rah ddernaha a ahbeeba dyaaaluiu ❤️"</span>.
                 </p>
 
                 <p>
@@ -517,7 +517,7 @@
 
             if (yesStep === 1) {
                 showCustomPrompt(
-                    "Are you 1000% sure? 🥹❤️",
+                    "Are you 1000% sure tatbgheeni? 🥹❤️",
                     "YES I AM! 💖",
                     "More than anything! 🥰",
                     () => handleYesClick()
